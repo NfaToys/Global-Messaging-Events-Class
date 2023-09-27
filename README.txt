@@ -1,7 +1,9 @@
 # Global-Messaging-Events-Class
 This includes a small Access VBA Project demonstrates the use of a global class object that uses events to allow forms to communicate with each other.   This allows forms to encapsulate functionality within the form, relieving other forms from needing to know anything about the forms they are talking to. 
 
+
 Also included is a copy of Richard Rosts Order Entry And Invoicing Access project that's been modified to include a custom global Event Class that enhances the functionality of the project.
+
 
 Run the project and open the MainForm.
 1. Open the CustomerF, then press Orders Button.  Switch between Customers on the CustomersF form using the Record Buttons; the Orders form follows the selected customer.
