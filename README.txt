@@ -1,7 +1,13 @@
 #### Event tests.accdb ####
 
 The Events Test project.
-This is a small Access VBA Project that demonstrates the use of a global Class module that provides custom events that allows forms to trigger actions within themselves or with each other.   This Class module concept gives the developer the power of designing custom form events.  Forms can easily trigger actions within themselves, or trigger events in other forms to perform their own actions.   A practicle use of this would be a database that has several forms open that share the same data.  When data is changed in one form, ideally you'd want all other forms to update their displays to reflect the change.   This can be done using function calls for each form, but with this approach the code becomes clumsy and hard to maintain when the number of forms sharing data is numerous.   The better way is to use custom Events.  As each form opens it hooks into the Evenet chain of the global Event class.  Then each form sinks and handles the pertinent events for that form.  And when the form closes it unhooks from the event chain.
+This is a small Access VBA project that demonstrates the use of a global class module to provide custom events, allowing forms to trigger actions within themselves or across other forms.
+
+The class module concept empowers developers to design custom form events. Forms can easily initiate actions internally or trigger events in other forms to perform their own tasks.
+
+A practical use case would be a database with multiple open forms sharing the same data. When data is modified in one form, ideally all other forms should update their displays to reflect the change. While this can be achieved using direct function calls to each form, that approach quickly becomes cumbersome and difficult to maintain as the number of shared forms increases.
+
+A better solution is to use custom events. As each form opens, it hooks into the event chain of the global event class. Each form then sinks and handles the events relevant to its context. When a form closes, it cleanly unhooks from the event chain.
 
 
 #### Order Entry and Invoicing Template with Custom Events_2023-08-23.accdb ####
