@@ -13,7 +13,8 @@ A better solution is to use custom events. As each form opens, it hooks into the
 
 
 #### Order Entry and Invoicing Template with Custom Events_2023-08-23.accdb ####
-[![Order Entry and Invoicing Template with Custom Events]([https://img.shields.io/badge/Download-Event_tests.accdb-blue?style=for-the-badge)](https://github.com/NfaToys/Global-Messaging-Events-Class/raw/main/Event%20tests.accdb](https://github.com/NfaToys/Global-Messaging-Events-Class/blob/main/Order%20Entry%20and%20Invoicing%20Template%20with%20Custom%20Events_2023-08-23.accdb))
+[![Download Modified Order Entry Template](https://img.shields.io/badge/Download-Order_Entry_Template-blue?style=for-the-badge)](https://github.com/NfaToys/Global-Messaging-Events-Class/raw/main/Order%20Entry%20and%20Invoicing%20Template%20with%20Custom%20Events_2023-08-23.accdb)
+
 
 
 This is a copy of Richards Order Entry Template example modified with my Global Event Class providing simultanious updates to all open forms sharing similar table data.
