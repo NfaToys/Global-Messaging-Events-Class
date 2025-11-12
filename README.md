@@ -13,7 +13,8 @@ A practical use case would be a database with multiple open forms sharing the sa
 A better solution is to use custom events. As each form opens, it hooks into the event chain of the global event class. Each form then sinks and handles the events relevant to its context. When a form closes, it cleanly unhooks from the event chain.
 
 
-#### Order Entry and Invoicing Template with Custom Events_2023-08-23.accdb ####
+# Order Entry and Invoicing Template with Custom Events_2023-08-23.accdb
+
 [![Download Modified Order Entry Template](https://img.shields.io/badge/Download-Order_Entry_Template-blue?style=for-the-badge)](https://github.com/NfaToys/Global-Messaging-Events-Class/raw/main/Order%20Entry%20and%20Invoicing%20Template%20with%20Custom%20Events_2023-08-23.accdb)
 
 
